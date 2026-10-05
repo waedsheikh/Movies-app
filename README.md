@@ -1,16 +1,31 @@
-# React + Vite
+# 🎬 Movie App (React JS + Tailwind CSS + DaisyUI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and responsive web application for exploring popular movies, searching titles in real-time, viewing detailed information, and saving favorites to local storage. 
 
-Currently, two official plugins are available:
+Built using React.js, Tailwind CSS, DaisyUI, and integrated with The Movie Database (TMDB) API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔥 Trending & Popular Movies: Automatically fetches and displays popular movies on load.
+* 🔍 Dynamic Search: Search for any movie instantly via the TMDB Search API.
+* 📄 Pagination: Seamlessly navigate through multiple pages of movie results.
+* ❤️ Favorite System: Save your favorite movies locally (localStorage) with full persistent state across reloads.
+* 🎬 Detailed Movie Modal: Click on any movie card to open a detailed modal showing overview, release date, rating, and genres.
+* 📱 Fully Responsive: Smooth UI experience tailored for desktop, tablet, and mobile screens.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* Frontend Framework: React.js (Vite)
+* Styling: Tailwind CSS + DaisyUI
+* Icons: Lucide React / Heroicons
+* API: [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api)
+* Deployment: GitHub Pages
+
+
+Ensure you have Node.js installed:
+`bash
+node -v
